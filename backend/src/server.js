@@ -10,7 +10,7 @@ io.on('connection', socket => {
     console.log('Nova conexão', socket.id); 
 });
 
-mongoose.connect('mongodb+srv://guilherme:82826603@cluster01-camc4.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('seu_mongodb_url', {
     useNewUrlParser: true
 })
 
